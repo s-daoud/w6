@@ -1,0 +1,29 @@
+/* PHASE 8: Thumbs */
+.thumb li{
+  float:left;
+  border-radius: 5px;
+  border: 1px solid #000;
+  width: 29%;
+  margin-bottom: 10px;
+}
+
+.thumb li:nth-child(3n+2){
+  margin: 0 10px;
+}
+
+
+.thumb li a[title]:before{
+  content: attr(title);
+  background-color: #000;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  display: none;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.thumb li:hover .thumb li a[title]:before{
+  display: block;
+  position: absolute;
+}

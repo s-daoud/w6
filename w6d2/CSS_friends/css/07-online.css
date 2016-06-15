@@ -1,0 +1,21 @@
+/* PHASE 7: Online */
+.online-ribbon {
+  background-color: #0c0;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  transform: rotate(-45deg);
+  top: 12px;
+  left: -21px;
+  padding: 5px 20px;
+  box-shadow: 0 1px 0 0 #070;
+}
+
+.online-ribbon:before, .online-ribbon:after {
+  content: "";
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  position: absolute;
+  bottom: -3px;
+}
