@@ -1,0 +1,47 @@
+body, div, ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background: url("../25392cd170fbd20088ed038b9b045125.jpg");
+}
+
+h1{
+  text-align: center;
+  color: orangered;
+}
+
+.snakediv {
+}
+
+ul {
+  margin: 0 auto;
+  list-style: none;
+  height: 27px;
+  width: 540px;
+}
+
+
+li {
+  height: 25px;
+  width: 25px;
+  margin: 1px;
+  float: left;
+  background: #1A421A;
+}
+
+.isSnake{
+  background-color: orange;
+}
+
+.mouse {
+  background-color: whitesmoke;
+}
+
+.group {
+  content: "";
+  display: block;
+  clear: both;
+}

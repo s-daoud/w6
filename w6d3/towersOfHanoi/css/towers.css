@@ -1,0 +1,62 @@
+body {
+  background: url("../giphy.gif");
+}
+
+h1 {
+  text-align: center;
+  color: whitesmoke;
+}
+
+.hanoi {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+}
+
+ul {
+  padding-left: 0;
+  flex: 1;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  height: 250px;
+  margin: 10px;
+  list-style: none;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 30%;
+  background: rgba(200, 200, 200, .3);
+  padding-bottom: 10px;
+  border-bottom: 15px solid #111;
+}
+
+li {
+  position: relative;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 30%;
+  background: teal;
+  height: 70px;
+  width: 50px;
+  color: transparent;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+.one {
+  width: 25%;
+  background: #ccc;
+}
+
+.two {
+  width: 50%;
+  background: #aaa;
+}
+
+.three {
+  width: 75%;
+  background: grey;
+}
+
+.undefined {
+  display: none;
+}

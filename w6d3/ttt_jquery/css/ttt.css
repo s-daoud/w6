@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+  background: url("../Rainbow-with-Clouds-Background.jpg");
+  background-size: cover;
+}
+
+body > h1 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 900;
+  text-shadow: -3px 0 purple, 0 3px purple, 3px 0 purple, 0 -3px purple;
+}
+
+ul {
+  margin: 0 auto;
+}
+
+li {
+  float: left;
+  width: 30%;
+  height: 30%;
+  border: 10px solid purple;
+  list-style: none;
+  background-color: #E6BEDC;
+  text-align: center;
+}
+
+li h1 {
+  color: #fff;
+  font-size: 140px;
+  font-weight: 900;
+  margin: auto;
+  vertical-align: middle;
+  text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
+
+li:hover {
+  background-color: #41D1B2;
+}
+
+.clicked {
+  background-color: #90E8D5;
+}
